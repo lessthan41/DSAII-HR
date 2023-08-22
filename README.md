@@ -4,24 +4,24 @@
   ├─ instance1
   │  ├─ original
   │  │  ├─ image
-  │  │  │  ├─ 000.png
   │  │  │  ├─ 001.png
+  │  │  │  ├─ 002.png
   │  │  │    ...
   │  │  │  └─ 156.png
   │  │  └─ mask
-  │  │     ├─ 000.png
   │  │     ├─ 001.png
+  │  │     ├─ 002.png
   │  │       ...
   │  │     └─ 017.png
   │  └─ synthetic
   │     ├─ image
-  │     │  ├─ 000.png
   │     │  ├─ 001.png
+  │     │  ├─ 002.png
   │     │    ...
   │     │  └─ 156.png
   │     └─ mask
-  │        ├─ 000.png
   │        ├─ 001.png
+  │        ├─ 002.png
   │          ...
   │        └─ 156.png
   ├─ instance2
