@@ -29,7 +29,7 @@
 ```
 
 ## Dataset Structure
-DSAII-HR dataset serves as a performance evaluation dataset for industrial anomaly detection and segmentation task. These high-reflective images are filmed by NTU XXXLab. Each faucet instance (instance1\~instance8) contains two folder, `original` and `synthetic`. 
+DSAII-HR dataset serves as a performance evaluation dataset for industrial anomaly detection and segmentation task. These high-reflective images are filmed by NTU [BioRoLa](http://biorola.me.ntu.edu.tw/). Each faucet instance (instance1\~instance8) contains two folder, `original` and `synthetic`. 
 
 For the `original` folder, it consist of 156 images, with the different filming angles of the same instance. Note that images with the same ids shares the same angle from class to class. (the image `DSAII-HR/instance1/original/image/001.png` shares the same filming angle with `DSAII-HR/instance2/original/image/001.png`) Besides, the folder contains real defects in some images, and are annotated using bounding box record in `mask` folder. (`DSAII-HR/instance1/original/mask/056.png` implies `DSAII-HR/instance1/original/image/056.png` is defective)
 
@@ -57,7 +57,7 @@ We test `DSAII-HR` dataset on [Patchcore](https://github.com/amazon-science/patc
 |RegAD  |87.2    |   83.9  |
 
 ## Acknowledgement
-Thanks to NTU XXXLAB for providing the prototype dataset. We apply stable diffusion on it and produce synthetic anomalies.
+Thanks to NTU [Bio-inspired Robotics Laboratory (BioRoLa)](http://biorola.me.ntu.edu.tw/) for providing the prototype dataset. We apply stable diffusion on it and produce synthetic anomalies.
 
 ## NTHU CVLAB
 For more details, please visit [CVLAB](https://cv.cs.nthu.edu.tw/).
