@@ -36,7 +36,7 @@ For the `original` folder, it consist of 156 images, with the different filming 
 For the `synthetic` folder, we apply Stable Diffusion for defect inpainting for each images in `original` folder. The inpainting mask is acquired by random sampling ground_truth mask from [MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset, then applying augmentations as our input inpainting masks. The inpainting masks are saved under `mask` directory. The output defect images are saved under `images` directory. The failure cases are eliminated.
 
 <p align="center">
-  <img width="921" alt="image" src="https://raw.githubusercontent.com/lessthan41/DSAII-HR/main/cover.png">
+  <img width="921" alt="image" src="cover.png">
 </p>
 
 ## Why use DSAII-HR?
